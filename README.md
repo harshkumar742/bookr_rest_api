@@ -5,5 +5,5 @@
 
 #Start the server- npm run dev OR node app.js
 
-#Pics & Read me file added in repo
+#Read me file added in repo
 
