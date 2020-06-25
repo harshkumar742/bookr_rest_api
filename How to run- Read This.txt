@@ -1,0 +1,12 @@
+1.unzip the folder, cd inside the folder.
+2.Command to start the server- npm run dev 
+  or u can use- node app.js
+3. Then call Api's.
+   
+Example Api's-
+localhost:3000/createbook ,   Post request {"id":6,"Author":"HG Wells","Title":"The Invisible Man","ISBN":"978-1-73-482","Release Date":"1920"}
+localhost:3000/readbook/1 ,   Get Request
+localhost:3000/deletebook/1 , Get Request
+localhost:3000/updatebook/1 , Post request {"Author":"Paulo Coehlo","Title":"Alchemist","ISBN":"978-1-73-482","Release Date":"2001"}. Enter all field values except book id to update.
+
+5 books already created with id's from 1 to 5
